@@ -24,7 +24,7 @@ class MoviesController < ApplicationController
   private
 
   def find_movie
-    Movie.find(params[:id])
+    Movie.find(params[:id]) 
   end
 
   def render_not_found_response
